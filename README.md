@@ -16,7 +16,8 @@ This project builds upon the foundation of [browser-use](https://github.com/brow
 
 **Custom Browser Support:** The desktop app uses your existing Google Chrome browser, eliminating the need to re-login to sites or deal with other authentication challenges. This feature also supports high-definition screen recording.
 
-<video src="https://github.com/user-attachments/assets/56bc7080-f2e3-4367-af22-6bf2245ff6cb" controls="controls">Your browser does not support playing this video!</video>
+<img width="100%" alt="Screenshot of Browser Use Desktop running on macOS" src="https://github.com/user-attachments/assets/94e9fec1-7b17-453e-af6d-2e35f54b46ab" />
+
 
 ## Download
 
