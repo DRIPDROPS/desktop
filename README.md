@@ -8,9 +8,9 @@
 [![Documentation](https://img.shields.io/badge/Documentation-📕-blue)](https://docs.browser-use.com)
 [![Browser-Use](https://img.shields.io/twitter/follow/browser_use?style=social)](https://x.com/browser_use)
 
-This project builds upon the foundation of [browser-use](https://github.com/browser-use/browser-use) and [web-ui](https://github.com/browser-use/web-ui), which is designed to make websites accessible for AI agents.
+This project is designed to make websites accessible for AI agents and builds upon the foundation of [browser-use](https://github.com/browser-use/browser-use) + [web-ui](https://github.com/browser-use/web-ui).
 
-**UI:** is built on Electron and Gradio and supports most of `browser-use` functionalities. This UI is designed to be user-friendly and enables easy interaction with the browser agent.
+**UI:** is built on Electron and Gradio and supports most `browser-use` functionalities. This UI is designed to be user-friendly and enables easy interaction with the browser agent.
 
 **Expanded LLM Support:** We've integrated support for various Large Language Models (LLMs), including: Google, OpenAI, Azure OpenAI, Anthropic, DeepSeek, Ollama etc. And we plan to add support for even more models in the future.
 
