@@ -19,6 +19,16 @@ This project is designed to make websites accessible for AI agents and builds up
 <img width="100%" alt="Screenshot of Browser Use Desktop running on macOS" src="https://github.com/user-attachments/assets/94e9fec1-7b17-453e-af6d-2e35f54b46ab" />
 
 
+## Get Started
+
+```bash
+git clone https://github.com/browser-use/desktop
+cd desktop
+
+npm install
+vite dev
+```
+
 ## Download
 
 - Download for macOS *(Coming soon...)*
