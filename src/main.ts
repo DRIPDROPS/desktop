@@ -7,6 +7,22 @@ import fs from 'fs';
 import os from 'os';
 import http from 'http';
 
+const logFile = path.join(__dirname, '../../electron_debug.log');
+const logStream = fs.createWriteStream(logFile, { flags: 'a' });
+
+const originalConsoleLog = console.log;
+const originalConsoleError = console.error;
+
+console.log = (...args) => {
+  originalConsoleLog(...args);
+  logStream.write(`[LOG] ${new Date().toISOString()} ${args.join(' ')}\n`);
+};
+
+console.error = (...args) => {
+  originalConsoleError(...args);
+  logStream.write(`[ERROR] ${new Date().toISOString()} ${args.join(' ')}\n`);
+};
+
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (started) {
   app.quit();

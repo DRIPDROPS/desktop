@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(../../.venv/bin/pip install:*)",
+      "Bash(npm run start:*)",
+      "Bash(npx vite:*)",
+      "Bash(../../.venv/bin/python:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(true)",
+      "Bash(ss:*)",
+      "Bash(cp:*)",
+      "Bash(.venv/bin/python:*)"
+    ],
+    "deny": []
+  }
+}
